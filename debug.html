@@ -1,0 +1,741 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Fabschoolino | Debug</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+
+
+
+
+    <body>
+
+        <!--start-->
+
+        <nav id="nav">
+    <ul>
+      <li><a class="page-scroll" href="index.html#koop">Kopen</a></li>
+      <li><a class="page-scroll" href="index.html#projects">Projecten</a></li>
+      <li><a class="page-scroll" href="debug.html">Debug</a></li>
+      <li><a class="page-scroll" href="index.html#faq">Contact</a></li>
+    </ul>
+  </nav>
+
+
+        <header id="start-debug">
+          <div id="lang-ops">
+            NL
+            /
+            <a href="/en/debug.html">EN</a>
+          </div>
+        <div class="container start-content-debug">
+
+                 <a href="index.html"><div class="logo-container-debug"></div></a>
+
+                  <div class="debug_intro">
+                     <ul>
+
+
+                         <li>
+                             <p class="debug-intro-text">Op deze pagina helpen we je om problemen met je Fabschoolino op te lossen: debuggen.</p>
+
+                             <!--
+                             <p class="debug-intro-text">Het woord ‘debuggen’ komt oorspronkelijk van ‘a bug’ of ‘een mot’. Dit komt uit de tijd dat de computers
+nog uitgerust waren met relais. Deze relais kwamen veelal uit de telefoonindustrie en waren niet
+ingekapseld in een behuizing. Daardoor kon klein ongedierte als vliegen of motten zich nestelen tussen
+de contacten van het relais. Dit leidde tot storingen. Het debuggen was het vinden van die storingen en
+het ongedierte verwijderen. Vandaar dat de term ‘debuggen’ of ‘de mot wegnemen’ ontstond, en nu nog
+steeds in de vaktermen van het programmeren
+geworteld zit.</p>
+                               -->
+
+
+                        <p class="debug-intro-text">Hoe werkt deze pagina?
+Als de Fabschoolino in elkaar zit en het LEDje gaat knipperen wanneer je de batterijhouder aanzet, dan
+werkt je Fabschoolino. Goed gedaan!
+Maar er is een kans dat je LEDje niet gaat branden, dan zit er iets nog niet goed. In deze pagina helpen
+we je stap voor stap verder om te achterhalen waar de fout zit. Klik op de pijlen om iedere stap te doorlopen
+of scroll naar beneden om verschillende onderdelen te onderzoeken.
+Succes!</p>
+                         </li>
+
+
+
+                     </ul>
+                     </div>
+
+
+
+                  <div class="arrow-wrapper page-scroll" href="#info">
+                    <img src="img/icons/arrow_down.svg">
+                  </div>
+            </div>
+            </header>
+
+        <!--info-->
+
+            <section id="info" class="section">
+
+                <div class="container info-content">
+
+
+                    <section class="debug-wrapper">
+
+                           <header class="debug-subject">
+
+                                <h2 class="debug-subject--nr">1</h2>
+                                <p class="debug-subject--text">Controleer de batterijen.</p>
+
+                           </header>
+
+
+                           <ul>
+                           <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/1.1.jpg">
+                                <h2 class="debug-slideshow--nr">1</h2>
+                                <p class="debug-slideshow--text">Op het voorbeeld hierboven zitten de batterijen niet goed in de houder.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/1.2.jpg">
+                                <h2 class="debug-slideshow--nr">2</h2>
+                                <p class="debug-slideshow--text">Zorg dat de batterijen in de houder zitten zoals op het plaatje hierboven.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/1.3.jpg">
+                                <h2 class="debug-slideshow--nr">3</h2>
+                                <p class="debug-slideshow--text">Zet de batterijen op ‘on’ om te kijken of de LED gaat branden.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/1.4.jpg">
+                                <h2 class="debug-slideshow--nr">4</h2>
+                                <p class="debug-slideshow--text">Gaat de LED niet aan? Zet de batterijen dan weer uit.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/1.5.jpg">
+                                <h2 class="debug-slideshow--nr">5</h2>
+                                <p class="debug-slideshow--text">Misschien zijn de ze op. Plaats nieuwe batterijen en probeer het opnieuw.</p>
+
+                            </li>
+                            </ul>
+
+                             <div class="debug-slideshow--btn-wrapper">
+                                 <form>
+                                   <button type="button" class="prev">
+                                     <img src="img/debug_images/btn-left-white.png">
+                                   </button>
+
+                                   <button type="button" class="next">
+                                     <img src="img/debug_images/btn-right-white.png">
+                                   </button>
+                                 </form>
+                             </div>
+
+                    </section>
+
+                      <p class="next--text">Heb je de Fabschoolino getest en doet hij het nog steeds niet?</p>
+                      <p class="next--text">Ga dan door naar stap 2.</p>
+
+
+                      <div class="arrow-wrapper-dark page-scroll" href="#step2">
+                        <img src="img/icons/arrow_down.svg">
+                      </div>
+
+                </div>
+
+            </section>
+
+            <!-- step 2 -->
+
+            <section id="step2" class="section">
+
+                <div class="container">
+
+
+                    <section class="debug-wrapper">
+
+                           <header class="debug-subject">
+
+                                <h2 class="debug-subject--nr">2</h2>
+                                <p class="debug-subject--text">Zit de IC goed?</p>
+
+                           </header>
+
+
+                           <ul>
+                           <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/2.1.jpg">
+                                <h2 class="debug-slideshow--nr">1</h2>
+                                <p class="debug-slideshow--text">Als de halve cirkel aan de zelfde kant zit als het plaatje hierboven dan zit de IC niet goed.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/2.2.jpg">
+                                <h2 class="debug-slideshow--nr">2</h2>
+                                <p class="debug-slideshow--text">Als de IC niet goed zit kan je de IC van de socket afhalen. Dit kan met je handen.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/2.3.jpg">
+                                <h2 class="debug-slideshow--nr">3</h2>
+                                <p class="debug-slideshow--text">Zorg dat je de pinnentjes van de IC weer recht zet als ze scheef staan.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/2.4.jpg">
+                                <h2 class="debug-slideshow--nr">4</h2>
+                                <p class="debug-slideshow--text">Zet de IC nu weer terug met de halve cirkel aan de juiste kant.</p>
+
+                            </li>
+                            </ul>
+
+                             <div class="debug-slideshow--btn-wrapper">
+                                 <form>
+                                   <button type="button" class="prev">
+                                     <img src="img/debug_images/btn-left-white.png">
+                                   </button>
+
+                                   <button type="button" class="next">
+                                     <img src="img/debug_images/btn-right-white.png">
+                                   </button>
+                                 </form>
+                             </div>
+
+                    </section>
+
+                      <p class="next--text">Heb je de Fabschoolino getest en doet hij het nog steeds niet?</p>
+                      <p class="next--text">Ga dan door naar stap 3.</p>
+
+                      <div class="arrow-wrapper-dark page-scroll" href="#step3">
+                         <img src="img/icons/arrow_down.svg">
+                      </div>
+
+                </div>
+
+            </section>
+
+            <!-- step 3 -->
+
+            <section id="step3" class="section">
+
+                <div class="container">
+
+
+                    <section class="debug-wrapper">
+
+                           <header class="debug-subject">
+
+                                <h2 class="debug-subject--nr">3</h2>
+                                <p class="debug-subject--text">Zitten de weerstanden op de juiste plek?</p>
+
+                           </header>
+
+
+                           <ul>
+                           <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/3.1.jpg">
+                                <h2 class="debug-slideshow--nr">1</h2>
+                                <p class="debug-slideshow--text">Kijk of de weerstanden op de juiste plek zitten zoals op het plaatje hierboven.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/fs_flipover.jpg">
+                                <h2 class="debug-slideshow--nr">2</h2>
+                                <p class="debug-slideshow--text">Als de weerstanden niet op de juiste plek zitten draai je de Fabschoolino om.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/7.8.jpg">
+                                <h2 class="debug-slideshow--nr">3</h2>
+                                <p class="debug-slideshow--text">Druk de hete soldeerbout tegen de gaatjes van de weerstanden om ze los te krijgen.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/3.4.jpg">
+                                <h2 class="debug-slideshow--nr">4</h2>
+                                <p class="debug-slideshow--text">Plaats de weerstanden nu op de juiste plek.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/3.5.jpg">
+                                <h2 class="debug-slideshow--nr">5</h2>
+                                <p class="debug-slideshow--text">Soldeer ze weer vast.</p>
+
+                            </li>
+                            </ul>
+
+                             <div class="debug-slideshow--btn-wrapper">
+                                 <form>
+                                   <button type="button" class="prev">
+                                     <img src="img/debug_images/btn-left-white.png">
+                                   </button>
+
+                                   <button type="button" class="next">
+                                     <img src="img/debug_images/btn-right-white.png">
+                                   </button>
+                                 </form>
+                             </div>
+
+                    </section>
+
+                      <p class="next--text">Heb je de Fabschoolino getest en doet hij het nog steeds niet?</p>
+                      <p class="next--text">Ga dan door naar stap 4.</p>
+
+                      <div class="arrow-wrapper-dark page-scroll" href="#step4">
+                         <img src="img/icons/arrow_down.svg">
+                      </div>
+
+                </div>
+
+            </section>
+
+            <!-- step 4 -->
+
+            <section id="step4" class="section">
+
+                <div class="container">
+
+
+                    <section class="debug-wrapper">
+
+                           <header class="debug-subject">
+
+                                <h2 class="debug-subject--nr">4</h2>
+                                <p class="debug-subject--text">Zitten de condensatoren op de juiste plek?</p>
+
+                           </header>
+
+
+                           <ul>
+                           <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/4.1.jpg">
+                                <h2 class="debug-slideshow--nr">1</h2>
+                                <p class="debug-slideshow--text">Kijk of de condensatoren op de juiste plek zitten zoals op het plaatje hierboven.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/fs_flipover.jpg">
+                                <h2 class="debug-slideshow--nr">2</h2>
+                                <p class="debug-slideshow--text">Als de condensatoren niet op de juiste plek zitten draai je de Fabschoolino om.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/7.8.jpg">
+                                <h2 class="debug-slideshow--nr">3</h2>
+                                <p class="debug-slideshow--text">Druk de hete soldeerbout tegen de gaatjes van de condensatoren om ze los te krijgen.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/3.4.jpg">
+                                <h2 class="debug-slideshow--nr">4</h2>
+                                <p class="debug-slideshow--text">Plaats de condensatoren nu op de juiste plek.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/3.5.jpg">
+                                <h2 class="debug-slideshow--nr">5</h2>
+                                <p class="debug-slideshow--text">Soldeer ze weer vast.</p>
+
+                            </li>
+                            </ul>
+
+                             <div class="debug-slideshow--btn-wrapper">
+                                 <form>
+                                   <button type="button" class="prev">
+                                     <img src="img/debug_images/btn-left-white.png">
+                                   </button>
+
+                                   <button type="button" class="next">
+                                     <img src="img/debug_images/btn-right-white.png">
+                                   </button>
+                                 </form>
+                             </div>
+
+                    </section>
+
+                      <p class="next--text">Heb je de Fabschoolino getest en doet hij het nog steeds niet?</p>
+                      <p class="next--text">Ga dan door naar stap 5.</p>
+
+                      <div class="arrow-wrapper-dark page-scroll" href="#step5">
+                         <img src="img/icons/arrow_down.svg">
+                      </div>
+
+                </div>
+
+            </section>
+
+            <!-- step 5 -->
+
+            <section id="step5" class="section">
+
+                <div class="container">
+
+
+                    <section class="debug-wrapper">
+
+                           <header class="debug-subject">
+
+                                <h2 class="debug-subject--nr">5</h2>
+                                <p class="debug-subject--text">Zijn er pinnen met elkaar verbonden?</p>
+
+                           </header>
+
+
+                           <ul>
+                           <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/5.1.jpg">
+                                <h2 class="debug-slideshow--nr">1</h2>
+                                <p class="debug-slideshow--text">Bekijk goed of er pinnen aan elkaar zijn gesoldeerd.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/5.2.jpg">
+                                <h2 class="debug-slideshow--nr">2</h2>
+                                <p class="debug-slideshow--text">Haal met een hete soldeerbout het soldeersel tussen de pinnen weg.</p>
+
+                            </li>
+
+
+                            </ul>
+
+                             <div class="debug-slideshow--btn-wrapper">
+                                 <form>
+                                   <button type="button" class="prev">
+                                     <img src="img/debug_images/btn-left-white.png">
+                                   </button>
+
+                                   <button type="button" class="next">
+                                     <img src="img/debug_images/btn-right-white.png">
+                                   </button>
+                                 </form>
+                             </div>
+
+                    </section>
+
+                      <p class="next--text">Heb je de Fabschoolino getest en doet hij het nog steeds niet?</p>
+                      <p class="next--text">Ga dan door naar stap 6.</p>
+
+                      <div class="arrow-wrapper-dark page-scroll" href="#step6">
+                         <img src="img/icons/arrow_down.svg">
+                      </div>
+
+                </div>
+
+            </section>
+
+            <!-- step 6 -->
+
+            <section id="step6" class="section">
+
+                <div class="container">
+
+
+                    <section class="debug-wrapper">
+
+                           <header class="debug-subject">
+
+                                <h2 class="debug-subject--nr">6</h2>
+                                <p class="debug-subject--text">Zijn er pinnen niet gesoldeerd?</p>
+
+                           </header>
+
+
+                           <ul>
+                           <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/6.1.jpg">
+                                <h2 class="debug-slideshow--nr">1</h2>
+                                <p class="debug-slideshow--text">Bekijk goed of er pinnen nog niet zijn gesoldeerd.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/6.2.jpg">
+                                <h2 class="debug-slideshow--nr">2</h2>
+                                <p class="debug-slideshow--text">Soldeer de nog niet gesoldeerde pinnen vast met soldeersel.</p>
+
+                            </li>
+
+
+                            </ul>
+
+                             <div class="debug-slideshow--btn-wrapper">
+                                 <form>
+                                   <button type="button" class="prev">
+                                     <img src="img/debug_images/btn-left-white.png">
+                                   </button>
+
+                                   <button type="button" class="next">
+                                     <img src="img/debug_images/btn-right-white.png">
+                                   </button>
+                                 </form>
+                             </div>
+
+                    </section>
+
+                      <p class="next--text">Heb je de Fabschoolino getest en doet hij het nog steeds niet?</p>
+                      <p class="next--text">Ga dan door naar stap 7.</p>
+
+                      <div class="arrow-wrapper-dark page-scroll" href="#step7">
+                         <img src="img/icons/arrow_down.svg">
+                      </div>
+
+                </div>
+
+            </section>
+
+            <!-- step 7 -->
+
+            <section id="step7" class="section">
+
+                <div class="container">
+
+
+                    <section class="debug-wrapper">
+
+                           <header class="debug-subject">
+
+                                <h2 class="debug-subject--nr">7</h2>
+                                <p class="debug-subject--text">Controleer of de LED goed zit.</p>
+
+                           </header>
+
+
+                           <ul>
+                           <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/7.1.jpg">
+                                <h2 class="debug-slideshow--nr">1</h2>
+                                <p class="debug-slideshow--text">Pak een extra LED uit je doosje.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/7.2.jpg">
+                                <h2 class="debug-slideshow--nr">2</h2>
+                                <p class="debug-slideshow--text">Steek de lange pin in poort 13 en de korte in GND.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/1.3.jpg">
+                                <h2 class="debug-slideshow--nr">3</h2>
+                                <p class="debug-slideshow--text">Zet de batterijen aan.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/7.4.jpg">
+                                <h2 class="debug-slideshow--nr">4</h2>
+                                <p class="debug-slideshow--text">Druk op de reset knop.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/7.5.jpg">
+                                <h2 class="debug-slideshow--nr">5</h2>
+                                <p class="debug-slideshow--text">Als de LED gaat branden zit de gesoldeerde LED niet goed.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/1.4.jpg">
+                                <h2 class="debug-slideshow--nr">6</h2>
+                                <p class="debug-slideshow--text">Zet de batterijen weer uit en verwijder de extra LED.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/fs_flipover.jpg">
+                                <h2 class="debug-slideshow--nr">7</h2>
+                                <p class="debug-slideshow--text">Draai de Fabschoolino om.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/7.8.jpg">
+                                <h2 class="debug-slideshow--nr">8</h2>
+                                <p class="debug-slideshow--text">Druk de hete soldeerbout tegen de gaatjes van de LED om het los te krijgen.</p>
+
+                            </li>
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/7.10.jpg">
+                                <h2 class="debug-slideshow--nr">9</h2>
+                                <p class="debug-slideshow--text">Plaats de extra LED op de plek van de oude LED. Let op de pootjes. Zie plaatje. </p>
+
+                            </li>
+
+
+                            <li class="debug-slideshow">
+
+                                <img class="debug-slideshow--img" src="img/debug_images/3.5.jpg">
+                                <h2 class="debug-slideshow--nr">10</h2>
+                                <p class="debug-slideshow--text">Soldeer de LED vast en knip de pootjes af.</p>
+
+                            </li>
+                            </ul>
+
+                             <div class="debug-slideshow--btn-wrapper">
+                                 <form>
+                                   <button type="button" class="prev">
+                                     <img src="img/debug_images/btn-left-white.png">
+                                   </button>
+
+                                   <button type="button" class="next">
+                                     <img src="img/debug_images/btn-right-white.png">
+                                   </button>
+                                 </form>
+                             </div>
+
+                    </section>
+
+                      <p class="next--text">Zijn alle stappen doorlopen en doet de Fabschoolino het nog steeds niet?</p><p class="next--text">Neem dan gerust contact met
+                      ons op.</p>
+
+
+
+                      <a class="debugcontact" href="index.html#faq">
+                      <button class="debug-contact-button" type="submit">Contact opnemen</button>
+                      </a>
+
+
+                </div>
+
+            </section>
+
+
+
+
+        <!--footer-->
+
+        <section id="footer">
+           <div class="footer-info">
+              <ul>
+                  <li>
+                      <h4>Informatie</h4>
+                      <a href="terms.html" target="_blank">Algemene voorwaarden</a>
+                  </li>
+              </ul>
+           </div>
+
+           <span class="bar"></span>
+
+            <div class="footer-content">
+
+
+
+              <ul class="cc-wrapper">
+
+                  <li>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+                  </li>
+                  <li>
+                      <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Instructables Fabschoolino</span> van <a xmlns:cc="http://creativecommons.org/ns#" href="www.waag.org" property="cc:attributionName" rel="cc:attributionURL">Waag Society</a> is in licentie gegeven volgens een <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal-licentie</a>.
+                      Gebaseerd op een werk op <a xmlns:dct="http://purl.org/dc/terms/" href="fabschoolino.waag.org" rel="dct:source">fabschoolino.waag.org</a>.
+                  </li>
+
+
+                  <li>
+                      <p>Geinspireerd op de Diavolino. Gemaakt door <a href="http://www.waag.org/nl">Waag Society</a></p>
+                  </li>
+              </ul>
+
+
+             </div>
+
+        </section>
+
+
+
+
+
+
+        <!--Scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
