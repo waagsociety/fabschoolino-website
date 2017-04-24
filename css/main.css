@@ -947,8 +947,16 @@ label {
 .footer-content{
     height: auto;
     color: #fff;
-    display: inline-flex;
     justify-content: space-between;
+}
+
+.footer-content ul li {
+  display: inline-block;
+}
+
+.footer-content ul .cc-icon img {
+  max-width: 100%;
+  margin: 0;
 }
 
 
@@ -957,7 +965,6 @@ label {
     margin: 0 auto;
     padding: 3.5vh 3em;
     list-style: none;
-    display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
     font-size: 0.8em;
@@ -1213,10 +1220,30 @@ label {
     text-align: left;
     border-bottom: 0px solid;
     width: 10px;
-
-
+}
+#page-wrap {
+  width: auto;
+  padding: 100px;
+  margin: auto;
 }
 
+#page-wrap h1{
+  margin: 0;
+}
+
+.button {
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  height: auto;
+  background-color: #2ECC71;
+  padding: 1em 2em;
+  font-family: Balance-bold;
+  border: 0px solid;
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+}
 .debug-slideshow--text{
     position: absolute;
     bottom: 2%;

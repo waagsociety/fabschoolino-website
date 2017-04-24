@@ -8,8 +8,8 @@
 </head>
 <body>
 	<div id="page-wrap">
-		<h1>Uw E-mail is verzonden.</h1><br />
-		<a class="button" href="index.html">Terug naar website</a>
+		<h1>Your e-mail is send.</h1><br />
+		<a class="button" href="index.html">Back to website</a>
 	</div>
 </body>
 </html>
