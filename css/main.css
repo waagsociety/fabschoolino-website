@@ -98,7 +98,7 @@ nav ul li a:focus{
 #start {
     height: 100vh;
     width: 100vw;
-    background-image: url(../img/bg_images/bg_landing2.png);
+    background-image: url(../img/bg_images/bg_landing.jpg);
     background-size: cover;
 
 }
@@ -130,7 +130,7 @@ nav ul li a:focus{
 
 
 .button-wrapper{
-    max-width: 75%;
+    max-width: 700px;
     height: 20vh;
     margin: auto;
     padding-top: 2%;
@@ -478,7 +478,6 @@ h2 span {
 .intro_projects_wrapper ul{
     display: inline-flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -542,8 +541,6 @@ h2 span {
 .intro-text_wrapper ul{
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90%;
 }
 
 .intro-text_wrapper h3{
@@ -554,16 +551,14 @@ h2 span {
 
 .button-container-intro{
     margin-top: 2em;
-    width: 35%;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 .button-container-intro button{
     text-align: center;
-    width: 180px;
     height: auto;
     background-color: #2ECC71;
-    padding: 1em 0;
+    padding: 1em 2em;
     font-family: Balance-bold;
     cursor: pointer;
     border: 0px solid;
@@ -644,7 +639,6 @@ h2 span {
 .projects_wrapper ul{
     display: inline-flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -680,23 +674,20 @@ h2 span {
 .projects_text_wrapper ul{
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     width: 70%;
 }
 
 .button-container-inspiratie{
     margin-top: 1em !important;
     margin-bottom: 1em;
-
-
 }
 
 .button-container-inspiratie button{
     text-align: center;
-    width: 170px;
     height: auto;
+    margin-right: 10px;
     background-color: #2ECC71;
-    padding: 1em 0;
+    padding: 1em 2em;
     font-family: Balance-bold;
     cursor: pointer;
     border: 0px solid;
@@ -944,44 +935,38 @@ label {
 
 
 
-.footer-content{
-    height: auto;
-    color: #fff;
-    justify-content: space-between;
+.footer-content {
+  height: auto;
+  color: #fff;
 }
 
-.footer-content ul li {
-  display: inline-block;
+.footer-content ul{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 3.5vh 3em;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 0.8em;
+  width: 80%;
+  line-height: 1.9em;
 }
 
 .footer-content ul .cc-icon img {
   max-width: 100%;
   margin: 0;
-}
-
-
-.footer-content ul{
-    border-top: #fff 1px solid;
-    margin: 0 auto;
-    padding: 3.5vh 3em;
-    list-style: none;
-    flex-wrap: wrap;
-    flex-direction: row;
-    font-size: 0.8em;
-    width: 80%;
-    justify-content: space-around;
-    line-height: 1.9em;
+  margin-bottom: 10px;
 }
 
 .footer-content ul li{
-    max-width: 50%;
-    margin-right: 20px;
+  display: inline-block;
+  max-width: 50%;
+  margin-right: 20px;
 }
 
-.footer-content ul li img{
-    margin:0.1em 0 0 40%;
-    width: 120px;
-    height: auto;
+.footer-content ul li p {
+  margin-bottom: 10px;
 }
 
 .footer-content ul li a{
@@ -1055,7 +1040,7 @@ label {
 #start-debug {
     height: 100vh;
     width: 100vw;
-    background-image: url(../img/bg_images/bg_debug.png);
+    background-image: url(../img/bg_images/bg_debug.jpg);
     background-size: cover;
 
 }
@@ -1221,6 +1206,7 @@ label {
     border-bottom: 0px solid;
     width: 10px;
 }
+
 #page-wrap {
   width: auto;
   padding: 100px;
@@ -1328,6 +1314,7 @@ button[disabled]:hover{
 
 
 .debug-contact-button{
+    display: block;
     text-align: center;
     width: 170px;
     height: auto;
@@ -1339,15 +1326,18 @@ button[disabled]:hover{
     color: #fff;
     font-size: 1em;
     transition: all 0.2s;
-    margin: 60px 25vw;
+    margin: 60px auto;
+    text-decoration: none;
 }
 
 .debug-contact-button:hover{
     background-color: #219351;
+    color: #fff;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
+    text-decoration: none;
 }
 /*
 .debug-slideshow--btn-right{
@@ -1687,7 +1677,6 @@ textarea {
 
      .projects_text_wrapper ul{
         width: 80%;
-        justify-content: space-between;
     }
 
     .button-container-inspiratie{
